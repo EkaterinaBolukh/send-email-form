@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>API Test</title>
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+	<!--=============================================================================================== -->
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/styles_2.css">
+
+</head>
+
+<body>
+
+	<header class=header_fixed>
+		<h2><a href="#">Kerain Art Studio</a></h2>
+		<nav>
+			<li><a href="#1">Home</a></li>
+			<li><a href="#2">Our Works</a></li>
+			<li><a href="#3">About</a></li>
+			<li><a href="#4">Contact Us</a></li>
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<a class="anchor" id="1"></a>
+		<div class="background-image" style="background-image: url(assets/img/1.jpg);"></div>
+		<h1>Studio Keretin Art</h1>
+		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi
+			vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</h3>
+		<a href="#4" class="btn">Contact Us</a>
+	</section>
+
+
+	<section class="our-work">
+		<a class="anchor" id="2"></a>
+		<h3 class="title">Some of our work</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi
+			vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(assets/img/2.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/3.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/4.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/5.jpg);"></li>
+			</div>
+	</section>
+
+
+	<section class="features">
+		<a class="anchor" id="3"></a>
+		<h3 class="title">About</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi
+			vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Hair Botox</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices
+					vitae pulvinar velit.</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Keratin</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices
+					vitae pulvinar velit.</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Hair treatment and prevention</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices
+					vitae pulvinar velit.</p>
+			</li>
+			</div>
+	</section>
+
+
+	<section class="contact">
+		<a class="anchor" id="4"></a>
+		<h3 class="title">Contact Us</h3>
+
+		<div class="contact_us_form">
+
+			<form action="" name="form" method="post" class="contact-form" onsubmit="return validateForm()">
+				<div class="alert-success" id="sent-text"></div>
+				<div class="feedback_form_field">
+					<input class="input_100" id="full_name" type="text" name="full_name" maxlength="50"
+						placeholder="Your Full Name">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="input-field-err-message-m-v m-b-19" id="error-full_name"></div>
+
+				<div class="feedback_form_field">
+					<input class="input_100" id="email" type="text" name="email" maxlength="50" placeholder="Email">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="input-field-err-message-m-v m-b-19" id="error-email"></div>
+
+				<div class="feedback_form_field">
+					<input class="input_100" id="" type="text" name="text" maxlength="500"
+						placeholder="Message or question">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="input-field-err-message-m-v m-b-19" id="error-text"></div>
+
+				<div class="submit_button" type="submit">
+					<button class="submit-100-form-btn">
+						Send Message
+					</button>
+				</div>
+
+			</form>
+		</div>
+
+
+	</section>
+
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+		</ul>
+		<p>Our address: Kiev, Evgena Konovaltsya, 36th, Kiev, 02000 </p>
+	</footer>
+
+</body>
+
+<script src=js/script.js></script>
+
+</html>
